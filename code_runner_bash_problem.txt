@@ -1,0 +1,11 @@
+"code-runner.executorMap": {
+
+        "cpp": "g++ -o  $fileNameWithoutExt $fileName &&./$fileNameWithoutExt",
+        "py": "python $fileName",
+        "c": "g++ -o  $fileNameWithoutExt $fileName &&./$fileNameWithoutExt"
+    },
+
+  "code-runner.executorMap": {
+    "c": "gcc -o $fileNameWithoutExt $fileName && ./$fileNameWithoutExt",
+    "c++": "g++ $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+  },
